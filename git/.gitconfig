@@ -1,0 +1,23 @@
+[user]
+	name = sergeyt
+	email = stodyshev@gmail.com
+[credential]
+	helper = cache --timeout=36000
+[color]
+	diff = auto
+	status = auto
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+[alias]
+	s = status
+	ci = commit
+	co = checkout
+	b = branch
+	switch = checkout
